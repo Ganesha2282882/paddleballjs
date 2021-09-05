@@ -7,7 +7,15 @@ var React = {
             undefined;
         }
         children.forEach(child => elem.append(child));
-        document.querySelector("body").append(elem);
         return elem;
     }
 }
+
+var ReactDOM = {
+    render: (component, element) => {
+        element.append(component);
+    }       
+}
+
+var Paddleball = Object.assign({}, React);
+var PbDOM = Object.assign({}, ReactDOM);
