@@ -1,12 +1,12 @@
 {
   "name": "paddleballjs",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A simple JS framework that uses JSX.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "create-paddleball-app test && cd test && npm start"
   },
   "author": "",
   "license": "MIT",
-  "repository": "https://github.com/Ganesha2282882/paddleballjs.git",
+  "repository": "https://github.com/Ganesha2282882/paddleballjs.git"
 }
