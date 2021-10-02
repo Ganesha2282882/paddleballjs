@@ -3,7 +3,7 @@
 ## Name origin
 It's from an [NPM expansion](https://github.com/npm/npm-expansions/blob/HEAD/expansions.txt). The full expansion is `November's Paddleball Marathon`.
 ## Usage
-Just use `create-paddleball-app` to scaffold, and then edit index.jsx. To add pages, copy the `buble` line in `Makefile` and change the filename. Then add the file `index.html` with this:
+Just use `create-paddleball-app` to scaffold, and then edit index.jsx. To add pages, copy the `buble` line in `Makefile` and change the filename. Then add an page with this:
 ```html
 <!DOCTYPE html>
 <html>
@@ -13,4 +13,11 @@ Just use `create-paddleball-app` to scaffold, and then edit index.jsx. To add pa
     <div id="root"></div>
     </body>
 </html>
+```
+After that, add a JSX file with this:
+```jsx
+var main = <div>
+    <h1>I'm pasted.</h1>
+</div>
+PbDOM.render(main, document.getElementById("root"));
 ```
