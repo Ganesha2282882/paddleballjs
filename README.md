@@ -9,7 +9,7 @@ Just use `create-paddleball-app` to scaffold, and then edit index.jsx. To add pa
 <html>
 <body>
     <script src="paddleball.js"></script>
-    <script src="<YOUR JSX FILE>.js" defer></script>
+    <script src="<YOUR JSX FILE>.jsx" defer></script>
     <div id="root"></div>
     </body>
 </html>
