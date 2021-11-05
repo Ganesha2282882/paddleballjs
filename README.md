@@ -7,7 +7,7 @@ curl -Ls https://git.io/JPpwR | bash
 ```
 Dependencies:
 - Git
-- uglifyjs
+- NPM
 ## Name origin
 It's from an [NPM expansion](https://github.com/npm/npm-expansions/blob/HEAD/expansions.txt). The full expansion is `November's Paddleball Marathon`.
 ## Usage
